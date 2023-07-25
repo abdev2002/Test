@@ -1,7 +1,8 @@
 function optOne(){
-    window.location = "/Transaction/transaction.html"; // Redirecting to other page.
+    window.location = "/Inventory/profile.html"; // Redirecting to other page.
 }function optTwo(){
-    window.location = "/Transaction/transaction.html"; // Redirecting to other page.
+    console.log("jyryufuyftyfutfu")
+    window.location = "/Productt/show product/show.html"; // Redirecting to other page.
 }function optThree(){
     window.location = "/Transaction/transaction.html"; // Redirecting to other page.
 }function optFour(){
