@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Employee Management</title>
+        <link rel="stylesheet" href="employee.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+            <link rel="stylesheet" href="/Common/Mobile-header.css">
+
+            <link rel="stylesheet" href="/Common/navigation.css">
+          </head>
+    
+    <body>
+      <div class="header">
+        <div class="logo"></div>
+        <div class="skyblock"></div>
+        <div class="skyblock"></div>
+        <div class="skyblock"></div>
+        <div class="skyblock"></div>
+        <div class="userimg" role="button" onclick="profile()"></div>
+          <span class="material-symbols-outlined face">
+            face
+          </span>  
+    </div>
+            <div class="blockchild options" id="options">
+            <div class="option" id="opt1" onclick="optOne()">
+                <div class="icon"><span class="material-symbols-outlined">
+                        home
+                    </span></div>
+                <div class="optText">Home</div>
+            </div>
+            <div class="option" id="opt2" role="button">
+                <div class="icon"><span class="material-symbols-outlined">
+                        inventory_2
+                    </span></div>
+                <div class="optText">Inventory</div>
+            </div>
+            <div class="option" id="opt3" role="button">
+                <div class="icon">
+                    <span class="material-symbols-outlined">
+                        group
+                    </span>
+                </div>
+                <div class="optText">Employees</div>
+            </div>
+            <div class="option" id="opt4" role="button" onclick="optFour()">
+                <div class="icon"><span class="material-symbols-outlined">
+                        receipt_long
+                    </span></div>
+                <div class="optText">Transaction</div>
+            </div>
+        </div>
+      
+        <div class="container1">
+      <table class="emptable" id="mytable">
+        <thead>
+          <tr>
+            <th>ID</th>
+           <th>Name</th>
+           <th>Gender</th>
+           <th>Email</th>
+           <th>Age</th>
+            <th>Employee Type</th>
+          </tr>
+       </thead>
+        <tbody></tbody>
+      </table>
+      <button id="Add" class="primary-button" onclick="myFunction()">+</button>
+
+    </div>
+    </body>
+    <script src="/Common/navigation.js"></script>
+    <script src="Employee.js"></script>
+</html>
+
+
